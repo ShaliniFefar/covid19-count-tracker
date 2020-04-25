@@ -1,0 +1,116 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.App {
+    background-color: black;
+    border: 2px solid salmon
+}
+
+.CountryWiseDiv {
+    background-color: #ffffff;
+}
+.MainData {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.MainData div {
+    margin: 1.5em;
+    padding: 1.5em;
+    border: 2px #e6ab19 solid;
+    border-radius: 20%;
+}
+
+.TitleImage {
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    align-items: center;
+}
+
+.TitleImage > h1 {
+    text-align: center;
+    color: #d9691a;
+    font-size: 3em;
+}
+
+.TitleImage > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #de181c;
+}
+
+.ButtonDiv {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#countryWiseButton {
+    background-color: #de5a2f;
+    color: #000000; 
+    border: 1px solid; 
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1em 2em;
+    margin: 1em;
+    display: block;
+    cursor: pointer;
+}
+
+.TableData {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 2em;
+}
+
+.SearchBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.SearchBox > input, .SearchBox > button {
+    padding: 0.5em;
+    margin: 3em;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid; 
+}
+
+.SearchBox > button {
+    background-color: #b8bed6;
+    color: #303b66; 
+    font-weight: bold;   
+}
+
+table, th, td {
+    color: #303b66;
+    border-collapse: collapse;  
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #b8bed6;
+}
+
+th {
+    height: 50px;
+}
